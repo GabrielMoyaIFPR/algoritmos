@@ -90,12 +90,27 @@
 # C = float(input("Digite o terceiro Numero:"))
 #
 # if A>B and A>C :
-#     print('Valor A')
+#     maior = A
 # elif B>A and B>C :
-#     print('Valor B')
-# else:
-#     C>A and C>B
-#     print('Valor C')
+#     maior = B
+# elif C>A and C>B :
+#     maior = C
+#
+#
+# if A < B and A < C :
+#     menor = A
+# elif B < A and B < C :
+#     menor = B
+# elif C < A and C < B :
+#     menor = C
+#
+# if A < maior and A > menor :
+#     meio = A
+# elif B < maior and B  > menor :
+#     meio = B
+# elif C < maior and C  > menor :
+#     meio = C
+# print("Ordem", menor ",", meio, ",", maior )
 
 #10-Construa um programa que mostre menu exatamente como o exemplo abaixo e implemente as funções necessárias:
 #     == Menu de Opções ==
