@@ -97,7 +97,14 @@
 #     C>A and C>B
 #     print('Valor C')
 
-#10-
+#10-Construa um programa que mostre menu exatamente como o exemplo abaixo e implemente as funções necessárias:
+#     == Menu de Opções ==
+#     1. Somar 2 números
+#     2. Potência de um número
+#     3. Raiz de grau N
+# == Opção escolhida:
+###########################################
+
 
 #11-Uma loja está com uma promoção de 10% desconto em todos os seus produtos. Faça um programa que receba um valor, calcule e imprima o valor do desconto (em reais) e o valor final do produto após aplicar o desconto.
 
