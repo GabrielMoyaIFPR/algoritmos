@@ -84,12 +84,13 @@
 #     C>A and C>B
 #     print('O terceiro é o maior dos 3 numeros')
 
+#9
+
 #10-Uma loja está com uma promoção de 10% desconto em todos os seus produtos. Faça um programa que receba um valor, calcule e imprima o valor do desconto (em reais) e o valor final do produto após aplicar o desconto.
 
-
-preco_bruto = float(input("Digite o valor do produto:"))
-d10 = preco_bruto * (10/100)
-preco_final = preco_bruto - d10
-
-print("Final: R$", preco_bruto)
-print("Final com 10%: R$", preco_final)
+# preco_bruto = float(input("Digite o valor do produto:"))
+# d10 = preco_bruto * (10/100)
+# preco_final = preco_bruto - d10
+#
+# print("Final: R$", preco_bruto)
+# print("Final com 10%: R$", preco_final)
