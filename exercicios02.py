@@ -72,13 +72,24 @@
 #     print('Reprovado')
 
 #8-Construa um algoritmo, que receba três valores, A, B e C. Em seguida, apresente na tela os números em ordem crescente.
-A  = float(input("Digite o primeiro Número:"))
-B = float(input("Digite o segundo Numero:"))
-C = float(input("Digite o terceiro Numero:"))
+# A  = float(input("Digite o primeiro Número:"))
+# B = float(input("Digite o segundo Numero:"))
+# C = float(input("Digite o terceiro Numero:"))
+#
+# if A>B and A>C :
+#     print('O primeiro é maior dos 3 numeros')
+# elif B>A and B>C :
+#     print('O segundo é o maior dos 3 numeros')
+# else:
+#     C>A and C>B
+#     print('O terceiro é o maior dos 3 numeros')
 
-if A>B and A>C :
-    print('O primeiro é maior dos 3 numeros')
-if B>A and B>C :
-    print('O segundo é o maior dos 3 numeros')
-if C>A and C>B :
-    print('O terceiro é o maior dos 3 numeros')
+#10-Uma loja está com uma promoção de 10% desconto em todos os seus produtos. Faça um programa que receba um valor, calcule e imprima o valor do desconto (em reais) e o valor final do produto após aplicar o desconto.
+
+
+preco_bruto = float(input("Digite o valor do produto:"))
+d10 = preco_bruto * (10/100)
+preco_final = preco_bruto - d10
+
+print("Final: R$", preco_bruto)
+print("Final com 10%: R$", preco_final)
